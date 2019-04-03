@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.color {
+
+    background: linear-gradient(0deg, rgba(0,107,142,1) 0%, rgba(0,0,0,1) 100%);
+  
+
+}
+
+
+.w70{
+    width: 70px;
+}
+
+.service-area{
+
+    background: linear-gradient(90deg, rgba(51,88,145,1) 0%, rgba(0,212,255,1) 100%);
+   
+
+}
