@@ -13,9 +13,6 @@
     width: 70px;
 }
 
-.service-area{
-
-    background: linear-gradient(90deg, rgba(51,88,145,1) 0%, rgba(0,212,255,1) 100%);
-   
-
+.tamaño{
+    font-size: 15px;
 }
