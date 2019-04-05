@@ -1865,23 +1865,10 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-nav {
-  margin-right: 70px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  transform-origin: 100% 50%;
-}
 
 @media (max-width: 767px) {
-  nav {
-    margin-right: 0;
-    position: absolute;
-    right: 0;
-    top: 50px;
-    text-align: right;
-  }
+
+
 }
 
 nav.hide {
@@ -1891,7 +1878,7 @@ nav.hide {
 nav a {
   font-size: 12px;
   font-weight: 500;
-  text-transform: uppercase;
+
   color: rgba(255, 255, 255, 0.7);
   margin: 0 25px;
 }
@@ -1902,7 +1889,7 @@ nav a:hover {
 
 body {
   background-attachment: fixed;
-  background-image: url("../img/body-bg2.jpg");
+  background-image: url("../img/body-bg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1917,7 +1904,7 @@ body:after {
   width: 100%;
   height: 100%;
   position: fixed;
-  background-image: linear-gradient(0deg, rgba(0,107,142,1) 0%, rgb(0, 0, 0) 100%);
+
   background-image:linear-gradient(0deg, rgba(0,107,142,1) 0%, rgb(0, 0, 0) 100%);
   background-image:linear-gradient(0deg, rgba(0,107,142,1) 0%, rgb(0, 0, 0) 100%);
 
@@ -2156,8 +2143,9 @@ body:after {
 }
 
 .single-service .thumb {
-  height: 10rem;
+  height: 20rem;
   width: 100%;
+
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center center !important;
@@ -2200,7 +2188,8 @@ body:after {
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  height: 320px;
+  height: 520px;
+
 }
 
 .active-works-carousel .item .caption {

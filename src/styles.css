@@ -4,6 +4,7 @@
 .color {
 
     background: linear-gradient(0deg, rgba(0,107,142,1) 0%, rgba(0,0,0,1) 100%);
+    
   
 
 }
@@ -16,3 +17,27 @@
 .tamaño{
     font-size: 15px;
 }
+
+tr , th {
+    color:rgb(208, 208, 208);
+}
+
+.position{
+    display:inline-block;
+    position: absolute;
+    z-index: 10;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    }
+
+    .menos{
+        margin-top: -135px;
+    }
+
+    @media (max-width: 767px) {
+    th,td {
+        font-size: 12px;
+    }
+
+      }
