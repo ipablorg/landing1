@@ -12,6 +12,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { PortadaComponent } from './components/portada/portada.component';
 import { TablaComponent } from './components/tabla/tabla.component';
 import { DescripcionesComponent } from './components/descripciones/descripciones.component';
+import { CopyComponent } from './components/copy/copy.component';
 
 
 
@@ -27,7 +28,8 @@ import { DescripcionesComponent } from './components/descripciones/descripciones
     BannerComponent,
     PortadaComponent,
     TablaComponent,
-    DescripcionesComponent
+    DescripcionesComponent,
+    CopyComponent
   ],
   imports: [
     BrowserModule,

@@ -21,12 +21,21 @@ background: linear-gradient(to left top, #d3c6e3, #d1c3e8, #cec1ed, #cabef2, #c5
 */
 /*  Basic Style 
 /* =================================== */
+
+
+
+.fondogris{
+  background: #313A45;
+}
+
 .oculto{
     display:none;
   }
   
   
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
+
+
 
 .oculto{
 display:block;
@@ -72,7 +81,6 @@ display:block;
   .titulo{
     font-size: 55px;
     letter-spacing: 5px;
-    z-index: 10;
     color: #e62357;
   
     }
@@ -82,11 +90,10 @@ display:block;
      
     }
 
-    .copy1{
-
-      background: #ffffff;
+    a{
+      letter-spacing: 2px;
     }
-
+ 
     .izquierda{
         display: block;
         transform: rotate(270deg);
@@ -101,8 +108,8 @@ display:block;
     }
     
     .subtitulo{
-    font-size: 25px;
-    letter-spacing: 2px;
+    font-size: 18px;
+    letter-spacing: 1px;
  
     }
     
@@ -701,10 +708,6 @@ display:block;
   
   .card{
   border-radius: 15px;
-  }
-  
-  .card-body{
-    border-radius: 8px;
   }
   
   
