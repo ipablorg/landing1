@@ -174,16 +174,12 @@ display:block;
      }
   
   .featured-area {
-  background-image: linear-gradient(to right, rgb(0, 0, 0 ,0.6) , rgb(43, 8, 27, 0.6), rgb(75, 0, 57, 0.6), rgb(108, 0, 155 , 0.6 ), rgb(97, 0, 169 ,0.6 ), rgb(78, 0, 183 ,0.6 ), rgb(41, 0, 199 ,0.6 ), rgb(45, 0, 164 , 0.6 ), rgb(42, 0, 131 , 0.5 ), rgb(37, 0, 99 , 0.6 ), rgb(29, 0, 70));
+ 
   padding: 70px 0 80px 0;
 
   }
   
-  .story-area{
-  
-    background-image:linear-gradient(0deg, rgb(0, 121, 214 ,0.4) 0%, rgba(61, 62, 74, 0.6) 100%);
-    
-  }
+
     
   
   body:after {
