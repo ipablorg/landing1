@@ -77,6 +77,16 @@ display:block;
   
     }
 
+    .copy{
+      background: #e62357;
+     
+    }
+
+    .copy1{
+
+      background: #ffffff;
+    }
+
     .izquierda{
         display: block;
         transform: rotate(270deg);
@@ -93,7 +103,7 @@ display:block;
     .subtitulo{
     font-size: 25px;
     letter-spacing: 2px;
-    color: #777777;
+ 
     }
     
    
