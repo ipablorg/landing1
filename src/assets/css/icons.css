@@ -1,6 +1,6 @@
 /*
 Template Name: Hyper - Responsive Bootstrap 4 Admin Dashboard
-Version: 1.4.0
+Version: 1.5.0
 Author: CoderThemes
 Email: support@coderthemes.com
 File: Icons Css File
@@ -640,8 +640,8 @@ File: Icons Css File
 /* MaterialDesignIcons.com */
 @font-face {
   font-family: "Material Design Icons";
-  src: url("../fonts/materialdesignicons-webfont.eot?v=3.2.89");
-  src: url("../fonts/materialdesignicons-webfont.eot?#iefix&v=3.2.89") format("embedded-opentype"), url("../fonts/materialdesignicons-webfont.woff2?v=3.2.89") format("woff2"), url("../fonts/materialdesignicons-webfont.woff?v=3.2.89") format("woff"), url("../fonts/materialdesignicons-webfont.ttf?v=3.2.89") format("truetype"), url("../fonts/materialdesignicons-webfont.svg?v=3.2.89#materialdesigniconsregular") format("svg");
+  src: url("../fonts/materialdesignicons-webfont.eot?v=3.4.93");
+  src: url("../fonts/materialdesignicons-webfont.eot?#iefix&v=3.4.93") format("embedded-opentype"), url("../fonts/materialdesignicons-webfont.woff2?v=3.4.93") format("woff2"), url("../fonts/materialdesignicons-webfont.woff?v=3.4.93") format("woff"), url("../fonts/materialdesignicons-webfont.ttf?v=3.4.93") format("truetype"), url("../fonts/materialdesignicons-webfont.svg?v=3.4.93#materialdesigniconsregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -832,8 +832,14 @@ File: Icons Css File
 .mdi-account-switch:before {
   content: "\F019"; }
 
+.mdi-account-tie:before {
+  content: "\FCBF"; }
+
 .mdi-accusoft:before {
   content: "\F849"; }
+
+.mdi-adchoices:before {
+  content: "\FD1E"; }
 
 .mdi-adjust:before {
   content: "\F01A"; }
@@ -843,6 +849,12 @@ File: Icons Css File
 
 .mdi-air-conditioner:before {
   content: "\F01B"; }
+
+.mdi-air-filter:before {
+  content: "\FD1F"; }
+
+.mdi-air-purifier:before {
+  content: "\FD20"; }
 
 .mdi-airbag:before {
   content: "\FBC5"; }
@@ -904,6 +916,9 @@ File: Icons Css File
 .mdi-alert-box:before {
   content: "\F027"; }
 
+.mdi-alert-box-outline:before {
+  content: "\FCC0"; }
+
 .mdi-alert-circle:before {
   content: "\F028"; }
 
@@ -913,11 +928,20 @@ File: Icons Css File
 .mdi-alert-decagram:before {
   content: "\F6BC"; }
 
+.mdi-alert-decagram-outline:before {
+  content: "\FCC1"; }
+
 .mdi-alert-octagon:before {
   content: "\F029"; }
 
+.mdi-alert-octagon-outline:before {
+  content: "\FCC2"; }
+
 .mdi-alert-octagram:before {
   content: "\F766"; }
+
+.mdi-alert-octagram-outline:before {
+  content: "\FCC3"; }
 
 .mdi-alert-outline:before {
   content: "\F02A"; }
@@ -1339,6 +1363,9 @@ File: Icons Css File
 .mdi-ambulance:before {
   content: "\F02F"; }
 
+.mdi-ammunition:before {
+  content: "\FCC4"; }
+
 .mdi-ampersand:before {
   content: "\FA8C"; }
 
@@ -1359,6 +1386,9 @@ File: Icons Css File
 
 .mdi-android-head:before {
   content: "\F78F"; }
+
+.mdi-android-messages:before {
+  content: "\FD21"; }
 
 .mdi-android-studio:before {
   content: "\F034"; }
@@ -1428,6 +1458,9 @@ File: Icons Css File
 
 .mdi-apps:before {
   content: "\F03B"; }
+
+.mdi-apps-box:before {
+  content: "\FD22"; }
 
 .mdi-arch:before {
   content: "\F8C6"; }
@@ -1531,6 +1564,12 @@ File: Icons Css File
 .mdi-arrow-down-box:before {
   content: "\F6BF"; }
 
+.mdi-arrow-down-circle:before {
+  content: "\FCB7"; }
+
+.mdi-arrow-down-circle-outline:before {
+  content: "\FCB8"; }
+
 .mdi-arrow-down-drop-circle:before {
   content: "\F04A"; }
 
@@ -1591,6 +1630,12 @@ File: Icons Css File
 .mdi-arrow-left-box:before {
   content: "\F6C0"; }
 
+.mdi-arrow-left-circle:before {
+  content: "\FCB9"; }
+
+.mdi-arrow-left-circle-outline:before {
+  content: "\FCBA"; }
+
 .mdi-arrow-left-drop-circle:before {
   content: "\F052"; }
 
@@ -1629,6 +1674,12 @@ File: Icons Css File
 
 .mdi-arrow-right-box:before {
   content: "\F6C1"; }
+
+.mdi-arrow-right-circle:before {
+  content: "\FCBB"; }
+
+.mdi-arrow-right-circle-outline:before {
+  content: "\FCBC"; }
 
 .mdi-arrow-right-drop-circle:before {
   content: "\F059"; }
@@ -1690,6 +1741,12 @@ File: Icons Css File
 .mdi-arrow-up-box:before {
   content: "\F6C2"; }
 
+.mdi-arrow-up-circle:before {
+  content: "\FCBD"; }
+
+.mdi-arrow-up-circle-outline:before {
+  content: "\FCBE"; }
+
 .mdi-arrow-up-down-bold-outline:before {
   content: "\F9C7"; }
 
@@ -1704,6 +1761,9 @@ File: Icons Css File
 
 .mdi-artist:before {
   content: "\F802"; }
+
+.mdi-artist-outline:before {
+  content: "\FCC5"; }
 
 .mdi-artstation:before {
   content: "\FB37"; }
@@ -1722,6 +1782,9 @@ File: Icons Css File
 
 .mdi-atlassian:before {
   content: "\F803"; }
+
+.mdi-atm:before {
+  content: "\FD23"; }
 
 .mdi-atom:before {
   content: "\F767"; }
@@ -1752,6 +1815,57 @@ File: Icons Css File
 
 .mdi-axe:before {
   content: "\F8C7"; }
+
+.mdi-axis:before {
+  content: "\FD24"; }
+
+.mdi-axis-arrow:before {
+  content: "\FD25"; }
+
+.mdi-axis-arrow-lock:before {
+  content: "\FD26"; }
+
+.mdi-axis-lock:before {
+  content: "\FD27"; }
+
+.mdi-axis-x-arrow:before {
+  content: "\FD28"; }
+
+.mdi-axis-x-arrow-lock:before {
+  content: "\FD29"; }
+
+.mdi-axis-x-rotate-clockwise:before {
+  content: "\FD2A"; }
+
+.mdi-axis-x-rotate-counterclockwise:before {
+  content: "\FD2B"; }
+
+.mdi-axis-x-y-arrow-lock:before {
+  content: "\FD2C"; }
+
+.mdi-axis-y-arrow:before {
+  content: "\FD2D"; }
+
+.mdi-axis-y-arrow-lock:before {
+  content: "\FD2E"; }
+
+.mdi-axis-y-rotate-clockwise:before {
+  content: "\FD2F"; }
+
+.mdi-axis-y-rotate-counterclockwise:before {
+  content: "\FD30"; }
+
+.mdi-axis-z-arrow:before {
+  content: "\FD31"; }
+
+.mdi-axis-z-arrow-lock:before {
+  content: "\FD32"; }
+
+.mdi-axis-z-rotate-clockwise:before {
+  content: "\FD33"; }
+
+.mdi-axis-z-rotate-counterclockwise:before {
+  content: "\FD34"; }
 
 .mdi-azure:before {
   content: "\F804"; }
@@ -2027,6 +2141,9 @@ File: Icons Css File
   content: "\F092"; }
 
 .mdi-beaker:before {
+  content: "\FCC6"; }
+
+.mdi-beaker-outline:before {
   content: "\F68F"; }
 
 .mdi-beats:before {
@@ -2043,6 +2160,15 @@ File: Icons Css File
 
 .mdi-bell:before {
   content: "\F09A"; }
+
+.mdi-bell-alert:before {
+  content: "\FD35"; }
+
+.mdi-bell-circle:before {
+  content: "\FD36"; }
+
+.mdi-bell-circle-outline:before {
+  content: "\FD37"; }
 
 .mdi-bell-off:before {
   content: "\F09B"; }
@@ -2114,6 +2240,9 @@ File: Icons Css File
   content: "\F0AA"; }
 
 .mdi-blender:before {
+  content: "\FCC7"; }
+
+.mdi-blender-software:before {
   content: "\F0AB"; }
 
 .mdi-blinds:before {
@@ -2124,6 +2253,9 @@ File: Icons Css File
 
 .mdi-blogger:before {
   content: "\F0AE"; }
+
+.mdi-blood-bag:before {
+  content: "\FCC8"; }
 
 .mdi-bluetooth:before {
   content: "\F0AF"; }
@@ -2154,6 +2286,9 @@ File: Icons Css File
 
 .mdi-blur-radial:before {
   content: "\F0B8"; }
+
+.mdi-bolnisi-cross:before {
+  content: "\FCC9"; }
 
 .mdi-bomb:before {
   content: "\F690"; }
@@ -2338,11 +2473,23 @@ File: Icons Css File
 .mdi-brain:before {
   content: "\F9D0"; }
 
+.mdi-bread-slice:before {
+  content: "\FCCA"; }
+
+.mdi-bread-slice-outline:before {
+  content: "\FCCB"; }
+
 .mdi-bridge:before {
   content: "\F618"; }
 
 .mdi-briefcase:before {
   content: "\F0D6"; }
+
+.mdi-briefcase-account:before {
+  content: "\FCCC"; }
+
+.mdi-briefcase-account-outline:before {
+  content: "\FCCD"; }
 
 .mdi-briefcase-check:before {
   content: "\F0D7"; }
@@ -2416,6 +2563,9 @@ File: Icons Css File
 .mdi-brightness-auto:before {
   content: "\F0E1"; }
 
+.mdi-brightness-percent:before {
+  content: "\FCCE"; }
+
 .mdi-broom:before {
   content: "\F0E2"; }
 
@@ -2442,6 +2592,9 @@ File: Icons Css File
 
 .mdi-bulldozer:before {
   content: "\FB07"; }
+
+.mdi-bullet:before {
+  content: "\FCCF"; }
 
 .mdi-bulletin-board:before {
   content: "\F0E5"; }
@@ -2532,6 +2685,9 @@ File: Icons Css File
 
 .mdi-calendar-import:before {
   content: "\FB0A"; }
+
+.mdi-calendar-minus:before {
+  content: "\FD38"; }
 
 .mdi-calendar-multiple:before {
   content: "\F0F1"; }
@@ -2659,6 +2815,9 @@ File: Icons Css File
 .mdi-camera-off:before {
   content: "\F5DF"; }
 
+.mdi-camera-outline:before {
+  content: "\FD39"; }
+
 .mdi-camera-party-mode:before {
   content: "\F105"; }
 
@@ -2698,14 +2857,29 @@ File: Icons Css File
 .mdi-car-brake-abs:before {
   content: "\FC23"; }
 
-.mdi-car-brake-parking:before {
+.mdi-car-brake-alert:before {
   content: "\FC24"; }
+
+.mdi-car-brake-hold:before {
+  content: "\FD3A"; }
+
+.mdi-car-brake-parking:before {
+  content: "\FD3B"; }
 
 .mdi-car-connected:before {
   content: "\F10D"; }
 
 .mdi-car-convertible:before {
   content: "\F7A6"; }
+
+.mdi-car-cruise-control:before {
+  content: "\FD3C"; }
+
+.mdi-car-defrost-front:before {
+  content: "\FD3D"; }
+
+.mdi-car-defrost-rear:before {
+  content: "\FD3E"; }
 
 .mdi-car-door:before {
   content: "\FB47"; }
@@ -2740,6 +2914,9 @@ File: Icons Css File
 .mdi-car-multiple:before {
   content: "\FB4A"; }
 
+.mdi-car-parking-lights:before {
+  content: "\FD3F"; }
+
 .mdi-car-pickup:before {
   content: "\F7A9"; }
 
@@ -2751,6 +2928,9 @@ File: Icons Css File
 
 .mdi-car-tire-alert:before {
   content: "\FC29"; }
+
+.mdi-car-traction-control:before {
+  content: "\FD40"; }
 
 .mdi-car-wash:before {
   content: "\F10E"; }
@@ -2815,11 +2995,23 @@ File: Icons Css File
 .mdi-carrot:before {
   content: "\F10F"; }
 
+.mdi-carry-on-bag-check:before {
+  content: "\FD41"; }
+
 .mdi-cart:before {
   content: "\F110"; }
 
+.mdi-cart-arrow-down:before {
+  content: "\FD42"; }
+
 .mdi-cart-arrow-right:before {
   content: "\FC2A"; }
+
+.mdi-cart-arrow-up:before {
+  content: "\FD43"; }
+
+.mdi-cart-minus:before {
+  content: "\FD44"; }
 
 .mdi-cart-off:before {
   content: "\F66B"; }
@@ -2829,6 +3021,9 @@ File: Icons Css File
 
 .mdi-cart-plus:before {
   content: "\F112"; }
+
+.mdi-cart-remove:before {
+  content: "\FD45"; }
 
 .mdi-case-sensitive-alt:before {
   content: "\F113"; }
@@ -2844,6 +3039,9 @@ File: Icons Css File
 
 .mdi-cash-refund:before {
   content: "\FA9B"; }
+
+.mdi-cash-register:before {
+  content: "\FCD0"; }
 
 .mdi-cash-usd:before {
   content: "\F117"; }
@@ -2928,6 +3126,9 @@ File: Icons Css File
 
 .mdi-cellphone-wireless:before {
   content: "\F814"; }
+
+.mdi-celtic-cross:before {
+  content: "\FCD1"; }
 
 .mdi-certificate:before {
   content: "\F124"; }
@@ -3196,6 +3397,9 @@ File: Icons Css File
 .mdi-christianity:before {
   content: "\F952"; }
 
+.mdi-christianity-outline:before {
+  content: "\FCD2"; }
+
 .mdi-church:before {
   content: "\F144"; }
 
@@ -3262,6 +3466,9 @@ File: Icons Css File
 .mdi-clipboard-alert:before {
   content: "\F149"; }
 
+.mdi-clipboard-alert-outline:before {
+  content: "\FCD3"; }
+
 .mdi-clipboard-arrow-down:before {
   content: "\F14A"; }
 
@@ -3270,6 +3477,15 @@ File: Icons Css File
 
 .mdi-clipboard-arrow-left:before {
   content: "\F14B"; }
+
+.mdi-clipboard-arrow-left-outline:before {
+  content: "\FCD4"; }
+
+.mdi-clipboard-arrow-right:before {
+  content: "\FCD5"; }
+
+.mdi-clipboard-arrow-right-outline:before {
+  content: "\FCD6"; }
 
 .mdi-clipboard-arrow-up:before {
   content: "\FC33"; }
@@ -3640,6 +3856,9 @@ File: Icons Css File
 .mdi-contact-mail:before {
   content: "\F18E"; }
 
+.mdi-contactless-payment:before {
+  content: "\FD46"; }
+
 .mdi-contacts:before {
   content: "\F6CA"; }
 
@@ -3669,6 +3888,12 @@ File: Icons Css File
 
 .mdi-content-save-all:before {
   content: "\F194"; }
+
+.mdi-content-save-edit:before {
+  content: "\FCD7"; }
+
+.mdi-content-save-edit-outline:before {
+  content: "\FCD8"; }
 
 .mdi-content-save-outline:before {
   content: "\F817"; }
@@ -3718,6 +3943,9 @@ File: Icons Css File
 .mdi-creation:before {
   content: "\F1C9"; }
 
+.mdi-creative-commons:before {
+  content: "\FD47"; }
+
 .mdi-credit-card:before {
   content: "\F19B"; }
 
@@ -3738,6 +3966,12 @@ File: Icons Css File
 
 .mdi-credit-card-settings:before {
   content: "\F8D6"; }
+
+.mdi-credit-card-wireless:before {
+  content: "\FD48"; }
+
+.mdi-cricket:before {
+  content: "\FD49"; }
 
 .mdi-crop:before {
   content: "\F19E"; }
@@ -3874,6 +4108,12 @@ File: Icons Css File
 .mdi-cursor-default:before {
   content: "\F1B4"; }
 
+.mdi-cursor-default-click:before {
+  content: "\FCD9"; }
+
+.mdi-cursor-default-click-outline:before {
+  content: "\FCDA"; }
+
 .mdi-cursor-default-outline:before {
   content: "\F1B5"; }
 
@@ -3910,8 +4150,17 @@ File: Icons Css File
 .mdi-database-plus:before {
   content: "\F1BA"; }
 
+.mdi-database-refresh:before {
+  content: "\FCDB"; }
+
+.mdi-database-remove:before {
+  content: "\FCDC"; }
+
 .mdi-database-search:before {
   content: "\F865"; }
+
+.mdi-database-settings:before {
+  content: "\FCDD"; }
 
 .mdi-death-star:before {
   content: "\F8D7"; }
@@ -4005,6 +4254,9 @@ File: Icons Css File
 
 .mdi-details:before {
   content: "\F1C6"; }
+
+.mdi-dev-to:before {
+  content: "\FD4A"; }
 
 .mdi-developer-board:before {
   content: "\F696"; }
@@ -4150,6 +4402,9 @@ File: Icons Css File
 .mdi-domain:before {
   content: "\F1D7"; }
 
+.mdi-domain-off:before {
+  content: "\FD4B"; }
+
 .mdi-donkey:before {
   content: "\F7C1"; }
 
@@ -4215,6 +4470,9 @@ File: Icons Css File
 
 .mdi-drag-vertical:before {
   content: "\F1DD"; }
+
+.mdi-drama-masks:before {
+  content: "\FCDE"; }
 
 .mdi-drawing:before {
   content: "\F1DE"; }
@@ -4299,6 +4557,9 @@ File: Icons Css File
 
 .mdi-email-alert:before {
   content: "\F6CE"; }
+
+.mdi-email-box:before {
+  content: "\FCDF"; }
 
 .mdi-email-check:before {
   content: "\FAB0"; }
@@ -4513,6 +4774,12 @@ File: Icons Css File
 .mdi-eye:before {
   content: "\F208"; }
 
+.mdi-eye-check:before {
+  content: "\FCE0"; }
+
+.mdi-eye-check-outline:before {
+  content: "\FCE1"; }
+
 .mdi-eye-circle:before {
   content: "\FB70"; }
 
@@ -4549,6 +4816,9 @@ File: Icons Css File
 .mdi-face:before {
   content: "\F643"; }
 
+.mdi-face-agent:before {
+  content: "\FD4C"; }
+
 .mdi-face-outline:before {
   content: "\FB72"; }
 
@@ -4581,6 +4851,12 @@ File: Icons Css File
 
 .mdi-fast-forward:before {
   content: "\F211"; }
+
+.mdi-fast-forward-10:before {
+  content: "\FD4D"; }
+
+.mdi-fast-forward-30:before {
+  content: "\FCE2"; }
 
 .mdi-fast-forward-outline:before {
   content: "\F6D1"; }
@@ -4846,6 +5122,9 @@ File: Icons Css File
 .mdi-flag-variant-outline:before {
   content: "\F23E"; }
 
+.mdi-flare:before {
+  content: "\FD4E"; }
+
 .mdi-flash:before {
   content: "\F241"; }
 
@@ -4885,6 +5164,9 @@ File: Icons Css File
 .mdi-flattr:before {
   content: "\F246"; }
 
+.mdi-flickr:before {
+  content: "\FCE3"; }
+
 .mdi-flip-to-back:before {
   content: "\F247"; }
 
@@ -4908,6 +5190,9 @@ File: Icons Css File
 
 .mdi-flower-outline:before {
   content: "\F9EF"; }
+
+.mdi-flower-poppy:before {
+  content: "\FCE4"; }
 
 .mdi-flower-tulip:before {
   content: "\F9F0"; }
@@ -4987,6 +5272,12 @@ File: Icons Css File
 .mdi-folder-plus-outline:before {
   content: "\FB79"; }
 
+.mdi-folder-pound:before {
+  content: "\FCE5"; }
+
+.mdi-folder-pound-outline:before {
+  content: "\FCE6"; }
+
 .mdi-folder-remove:before {
   content: "\F258"; }
 
@@ -5004,6 +5295,12 @@ File: Icons Css File
 
 .mdi-folder-star-outline:before {
   content: "\FB7B"; }
+
+.mdi-folder-sync:before {
+  content: "\FCE7"; }
+
+.mdi-folder-sync-outline:before {
+  content: "\FCE8"; }
 
 .mdi-folder-text:before {
   content: "\FC5E"; }
@@ -5194,6 +5491,9 @@ File: Icons Css File
 .mdi-format-list-numbered:before {
   content: "\F27B"; }
 
+.mdi-format-list-numbered-rtl:before {
+  content: "\FCE9"; }
+
 .mdi-format-page-break:before {
   content: "\F6D6"; }
 
@@ -5235,6 +5535,24 @@ File: Icons Css File
 
 .mdi-format-text:before {
   content: "\F284"; }
+
+.mdi-format-text-rotation-down:before {
+  content: "\FD4F"; }
+
+.mdi-format-text-rotation-none:before {
+  content: "\FD50"; }
+
+.mdi-format-text-wrapping-clip:before {
+  content: "\FCEA"; }
+
+.mdi-format-text-wrapping-overflow:before {
+  content: "\FCEB"; }
+
+.mdi-format-text-wrapping-wrap:before {
+  content: "\FCEC"; }
+
+.mdi-format-textbox:before {
+  content: "\FCED"; }
 
 .mdi-format-textdirection-l-to-r:before {
   content: "\F285"; }
@@ -5278,8 +5596,17 @@ File: Icons Css File
 .mdi-forward:before {
   content: "\F28D"; }
 
+.mdi-forwardburger:before {
+  content: "\FD51"; }
+
 .mdi-fountain:before {
   content: "\F96A"; }
+
+.mdi-fountain-pen:before {
+  content: "\FCEE"; }
+
+.mdi-fountain-pen-tip:before {
+  content: "\FCEF"; }
 
 .mdi-foursquare:before {
   content: "\F28E"; }
@@ -5407,6 +5734,9 @@ File: Icons Css File
 .mdi-gesture-spread:before {
   content: "\FABD"; }
 
+.mdi-gesture-swipe:before {
+  content: "\FD52"; }
+
 .mdi-gesture-swipe-down:before {
   content: "\F73C"; }
 
@@ -5428,6 +5758,9 @@ File: Icons Css File
 .mdi-gesture-tap:before {
   content: "\F740"; }
 
+.mdi-gesture-tap-hold:before {
+  content: "\FD53"; }
+
 .mdi-gesture-two-double-tap:before {
   content: "\F741"; }
 
@@ -5439,6 +5772,9 @@ File: Icons Css File
 
 .mdi-ghost-off:before {
   content: "\F9F4"; }
+
+.mdi-gif:before {
+  content: "\FD54"; }
 
 .mdi-gift:before {
   content: "\F2A1"; }
@@ -5491,6 +5827,12 @@ File: Icons Css File
 .mdi-gnome:before {
   content: "\F2AC"; }
 
+.mdi-go-kart:before {
+  content: "\FD55"; }
+
+.mdi-go-kart-track:before {
+  content: "\FD56"; }
+
 .mdi-gog:before {
   content: "\FB7D"; }
 
@@ -5499,6 +5841,9 @@ File: Icons Css File
 
 .mdi-gondola:before {
   content: "\F685"; }
+
+.mdi-goodreads:before {
+  content: "\FD57"; }
 
 .mdi-google:before {
   content: "\F2AD"; }
@@ -5532,6 +5877,9 @@ File: Icons Css File
 
 .mdi-google-circles-group:before {
   content: "\F2B3"; }
+
+.mdi-google-classroom:before {
+  content: "\F2C0"; }
 
 .mdi-google-controller:before {
   content: "\F2B4"; }
@@ -5596,14 +5944,14 @@ File: Icons Css File
 .mdi-google-translate:before {
   content: "\F2BF"; }
 
-.mdi-google-wallet:before {
-  content: "\F2C0"; }
-
 .mdi-gpu:before {
   content: "\F8AD"; }
 
 .mdi-gradient:before {
   content: "\F69F"; }
+
+.mdi-grain:before {
+  content: "\FD58"; }
 
 .mdi-graphql:before {
   content: "\F876"; }
@@ -5701,6 +6049,12 @@ File: Icons Css File
 .mdi-hazard-lights:before {
   content: "\FC65"; }
 
+.mdi-hdr:before {
+  content: "\FD59"; }
+
+.mdi-hdr-off:before {
+  content: "\FD5A"; }
+
 .mdi-headphones:before {
   content: "\F2CB"; }
 
@@ -5736,6 +6090,9 @@ File: Icons Css File
 
 .mdi-heart-broken:before {
   content: "\F2D4"; }
+
+.mdi-heart-broken-outline:before {
+  content: "\FCF0"; }
 
 .mdi-heart-circle:before {
   content: "\F970"; }
@@ -5836,6 +6193,9 @@ File: Icons Css File
 .mdi-highway:before {
   content: "\F5F7"; }
 
+.mdi-hiking:before {
+  content: "\FD5B"; }
+
 .mdi-hinduism:before {
   content: "\F972"; }
 
@@ -5869,8 +6229,35 @@ File: Icons Css File
 .mdi-home-circle:before {
   content: "\F7D1"; }
 
+.mdi-home-city:before {
+  content: "\FCF1"; }
+
+.mdi-home-city-outline:before {
+  content: "\FCF2"; }
+
 .mdi-home-currency-usd:before {
   content: "\F8AE"; }
+
+.mdi-home-floor-1:before {
+  content: "\FD5C"; }
+
+.mdi-home-floor-2:before {
+  content: "\FD5D"; }
+
+.mdi-home-floor-3:before {
+  content: "\FD5E"; }
+
+.mdi-home-floor-a:before {
+  content: "\FD5F"; }
+
+.mdi-home-floor-b:before {
+  content: "\FD60"; }
+
+.mdi-home-floor-g:before {
+  content: "\FD61"; }
+
+.mdi-home-floor-l:before {
+  content: "\FD62"; }
 
 .mdi-home-heart:before {
   content: "\F826"; }
@@ -5934,6 +6321,9 @@ File: Icons Css File
 
 .mdi-houzz-box:before {
   content: "\F2E5"; }
+
+.mdi-hubspot:before {
+  content: "\FCF3"; }
 
 .mdi-hulu:before {
   content: "\F828"; }
@@ -6153,6 +6543,9 @@ File: Icons Css File
 
 .mdi-judaism:before {
   content: "\F979"; }
+
+.mdi-kabaddi:before {
+  content: "\FD63"; }
 
 .mdi-karate:before {
   content: "\F82B"; }
@@ -6400,6 +6793,9 @@ File: Icons Css File
 .mdi-library-books:before {
   content: "\F332"; }
 
+.mdi-library-movie:before {
+  content: "\FCF4"; }
+
 .mdi-library-music:before {
   content: "\F333"; }
 
@@ -6408,6 +6804,9 @@ File: Icons Css File
 
 .mdi-library-shelves:before {
   content: "\FB85"; }
+
+.mdi-library-video:before {
+  content: "\FCF5"; }
 
 .mdi-lifebuoy:before {
   content: "\F87D"; }
@@ -6435,6 +6834,18 @@ File: Icons Css File
 
 .mdi-link:before {
   content: "\F337"; }
+
+.mdi-link-box:before {
+  content: "\FCF6"; }
+
+.mdi-link-box-outline:before {
+  content: "\FCF7"; }
+
+.mdi-link-box-variant:before {
+  content: "\FCF8"; }
+
+.mdi-link-box-variant-outline:before {
+  content: "\FCF9"; }
 
 .mdi-link-off:before {
   content: "\F338"; }
@@ -6568,8 +6979,35 @@ File: Icons Css File
 .mdi-mailbox:before {
   content: "\F6ED"; }
 
+.mdi-mailbox-open:before {
+  content: "\FD64"; }
+
+.mdi-mailbox-open-outline:before {
+  content: "\FD65"; }
+
+.mdi-mailbox-open-up:before {
+  content: "\FD66"; }
+
+.mdi-mailbox-open-up-outline:before {
+  content: "\FD67"; }
+
+.mdi-mailbox-outline:before {
+  content: "\FD68"; }
+
+.mdi-mailbox-up:before {
+  content: "\FD69"; }
+
+.mdi-mailbox-up-outline:before {
+  content: "\FD6A"; }
+
 .mdi-map:before {
   content: "\F34D"; }
+
+.mdi-map-clock:before {
+  content: "\FCFA"; }
+
+.mdi-map-clock-outline:before {
+  content: "\FCFB"; }
 
 .mdi-map-legend:before {
   content: "\FA00"; }
@@ -6597,6 +7035,9 @@ File: Icons Css File
 
 .mdi-map-marker-outline:before {
   content: "\F7D8"; }
+
+.mdi-map-marker-path:before {
+  content: "\FCFC"; }
 
 .mdi-map-marker-plus:before {
   content: "\F651"; }
@@ -6853,6 +7294,9 @@ File: Icons Css File
 .mdi-mixcloud:before {
   content: "\F62A"; }
 
+.mdi-mixed-martial-arts:before {
+  content: "\FD6B"; }
+
 .mdi-mixed-reality:before {
   content: "\F87E"; }
 
@@ -6877,8 +7321,17 @@ File: Icons Css File
 .mdi-monitor-multiple:before {
   content: "\F37A"; }
 
+.mdi-monitor-off:before {
+  content: "\FD6C"; }
+
 .mdi-more:before {
   content: "\F37B"; }
+
+.mdi-mother-nurse:before {
+  content: "\FCFD"; }
+
+.mdi-motion-sensor:before {
+  content: "\FD6D"; }
 
 .mdi-motorbike:before {
   content: "\F37C"; }
@@ -7390,6 +7843,9 @@ File: Icons Css File
 .mdi-ornament-variant:before {
   content: "\F3D0"; }
 
+.mdi-outlook:before {
+  content: "\FCFE"; }
+
 .mdi-owl:before {
   content: "\F3D2"; }
 
@@ -7599,6 +8055,12 @@ File: Icons Css File
 
 .mdi-periscope:before {
   content: "\F747"; }
+
+.mdi-perspective-less:before {
+  content: "\FCFF"; }
+
+.mdi-perspective-more:before {
+  content: "\FD00"; }
 
 .mdi-pharmacy:before {
   content: "\F3F1"; }
@@ -7837,6 +8299,21 @@ File: Icons Css File
 .mdi-podcast:before {
   content: "\F993"; }
 
+.mdi-podium:before {
+  content: "\FD01"; }
+
+.mdi-podium-bronze:before {
+  content: "\FD02"; }
+
+.mdi-podium-gold:before {
+  content: "\FD03"; }
+
+.mdi-podium-silver:before {
+  content: "\FD04"; }
+
+.mdi-point-of-sale:before {
+  content: "\FD6E"; }
+
 .mdi-pokeball:before {
   content: "\F41D"; }
 
@@ -8026,8 +8503,17 @@ File: Icons Css File
 .mdi-quicktime:before {
   content: "\F436"; }
 
+.mdi-quora:before {
+  content: "\FD05"; }
+
 .mdi-rabbit:before {
   content: "\F906"; }
+
+.mdi-racing-helmet:before {
+  content: "\FD6F"; }
+
+.mdi-racquetball:before {
+  content: "\FD70"; }
 
 .mdi-radar:before {
   content: "\F437"; }
@@ -8071,7 +8557,7 @@ File: Icons Css File
 .mdi-radius-outline:before {
   content: "\FC9D"; }
 
-.mdi-raspberrypi:before {
+.mdi-raspberry-pi:before {
   content: "\F43F"; }
 
 .mdi-ray-end:before {
@@ -8200,6 +8686,9 @@ File: Icons Css File
 .mdi-restart:before {
   content: "\F708"; }
 
+.mdi-restart-off:before {
+  content: "\FD71"; }
+
 .mdi-restore:before {
   content: "\F99A"; }
 
@@ -8208,6 +8697,12 @@ File: Icons Css File
 
 .mdi-rewind:before {
   content: "\F45F"; }
+
+.mdi-rewind-10:before {
+  content: "\FD06"; }
+
+.mdi-rewind-30:before {
+  content: "\FD72"; }
 
 .mdi-rewind-outline:before {
   content: "\F709"; }
@@ -8254,11 +8749,20 @@ File: Icons Css File
 .mdi-rocket:before {
   content: "\F463"; }
 
+.mdi-roller-skate:before {
+  content: "\FD07"; }
+
+.mdi-rollerblade:before {
+  content: "\FD08"; }
+
 .mdi-rollupjs:before {
   content: "\FB9C"; }
 
 .mdi-room-service:before {
   content: "\F88C"; }
+
+.mdi-room-service-outline:before {
+  content: "\FD73"; }
 
 .mdi-rotate-3d:before {
   content: "\F464"; }
@@ -8268,6 +8772,9 @@ File: Icons Css File
 
 .mdi-rotate-left-variant:before {
   content: "\F466"; }
+
+.mdi-rotate-orbit:before {
+  content: "\FD74"; }
 
 .mdi-rotate-right:before {
   content: "\F467"; }
@@ -8296,6 +8803,12 @@ File: Icons Css File
 .mdi-rss-box:before {
   content: "\F46C"; }
 
+.mdi-ruby:before {
+  content: "\FD09"; }
+
+.mdi-rugby:before {
+  content: "\FD75"; }
+
 .mdi-ruler:before {
   content: "\F46D"; }
 
@@ -8308,8 +8821,17 @@ File: Icons Css File
 .mdi-run-fast:before {
   content: "\F46E"; }
 
+.mdi-sack:before {
+  content: "\FD0A"; }
+
+.mdi-sack-percent:before {
+  content: "\FD0B"; }
+
 .mdi-safe:before {
   content: "\FA69"; }
+
+.mdi-safety-goggles:before {
+  content: "\FD0C"; }
 
 .mdi-sale:before {
   content: "\F46F"; }
@@ -8431,6 +8953,9 @@ File: Icons Css File
 .mdi-select-all:before {
   content: "\F486"; }
 
+.mdi-select-color:before {
+  content: "\FD0D"; }
+
 .mdi-select-compare:before {
   content: "\FAD8"; }
 
@@ -8448,6 +8973,9 @@ File: Icons Css File
 
 .mdi-selection-drag:before {
   content: "\FA6C"; }
+
+.mdi-selection-ellipse:before {
+  content: "\FD0E"; }
 
 .mdi-selection-off:before {
   content: "\F776"; }
@@ -8599,6 +9127,12 @@ File: Icons Css File
 .mdi-shield-key-outline:before {
   content: "\FBA1"; }
 
+.mdi-shield-link-variant:before {
+  content: "\FD0F"; }
+
+.mdi-shield-link-variant-outline:before {
+  content: "\FD10"; }
+
 .mdi-shield-lock:before {
   content: "\F99C"; }
 
@@ -8625,6 +9159,9 @@ File: Icons Css File
 
 .mdi-shield-remove-outline:before {
   content: "\FADC"; }
+
+.mdi-shield-search:before {
+  content: "\FD76"; }
 
 .mdi-ship-wheel:before {
   content: "\F832"; }
@@ -8755,6 +9292,15 @@ File: Icons Css File
 .mdi-sitemap:before {
   content: "\F4AA"; }
 
+.mdi-skate:before {
+  content: "\FD11"; }
+
+.mdi-skew-less:before {
+  content: "\FD12"; }
+
+.mdi-skew-more:before {
+  content: "\FD13"; }
+
 .mdi-skip-backward:before {
   content: "\F4AB"; }
 
@@ -8838,6 +9384,12 @@ File: Icons Css File
 
 .mdi-sofa:before {
   content: "\F4B9"; }
+
+.mdi-solar-panel:before {
+  content: "\FD77"; }
+
+.mdi-solar-panel-large:before {
+  content: "\FD78"; }
 
 .mdi-solar-power:before {
   content: "\FA71"; }
@@ -8929,6 +9481,9 @@ File: Icons Css File
 .mdi-speaker-bluetooth:before {
   content: "\F9A1"; }
 
+.mdi-speaker-multiple:before {
+  content: "\FD14"; }
+
 .mdi-speaker-off:before {
   content: "\F4C4"; }
 
@@ -9006,6 +9561,9 @@ File: Icons Css File
 
 .mdi-stairs:before {
   content: "\F4CD"; }
+
+.mdi-stamper:before {
+  content: "\FD15"; }
 
 .mdi-standard-definition:before {
   content: "\F7EE"; }
@@ -9120,6 +9678,9 @@ File: Icons Css File
 
 .mdi-subway:before {
   content: "\F6AB"; }
+
+.mdi-subway-alert-variant:before {
+  content: "\FD79"; }
 
 .mdi-subway-variant:before {
   content: "\F4DF"; }
@@ -9310,6 +9871,9 @@ File: Icons Css File
 .mdi-tag-text-outline:before {
   content: "\F4FD"; }
 
+.mdi-tank:before {
+  content: "\FD16"; }
+
 .mdi-tape-measure:before {
   content: "\FB28"; }
 
@@ -9324,6 +9888,12 @@ File: Icons Css File
 
 .mdi-taxi:before {
   content: "\F4FF"; }
+
+.mdi-tea:before {
+  content: "\FD7A"; }
+
+.mdi-tea-outline:before {
+  content: "\FD7B"; }
 
 .mdi-teach:before {
   content: "\F88F"; }
@@ -9365,6 +9935,9 @@ File: Icons Css File
   content: "\F506"; }
 
 .mdi-tennis:before {
+  content: "\FD7C"; }
+
+.mdi-tennis-ball:before {
   content: "\F507"; }
 
 .mdi-tent:before {
@@ -9571,6 +10144,9 @@ File: Icons Css File
 .mdi-tor:before {
   content: "\F52A"; }
 
+.mdi-tortoise:before {
+  content: "\FD17"; }
+
 .mdi-tournament:before {
   content: "\F9AD"; }
 
@@ -9619,8 +10195,23 @@ File: Icons Css File
 .mdi-transcribe-close:before {
   content: "\F52F"; }
 
-.mdi-transfer:before {
+.mdi-transfer-down:before {
+  content: "\FD7D"; }
+
+.mdi-transfer-left:before {
+  content: "\FD7E"; }
+
+.mdi-transfer-right:before {
   content: "\F530"; }
+
+.mdi-transfer-up:before {
+  content: "\FD7F"; }
+
+.mdi-transit-connection:before {
+  content: "\FD18"; }
+
+.mdi-transit-connection-variant:before {
+  content: "\FD19"; }
 
 .mdi-transit-transfer:before {
   content: "\F6AD"; }
@@ -9633,6 +10224,9 @@ File: Icons Css File
 
 .mdi-translate:before {
   content: "\F5CA"; }
+
+.mdi-transmission-tower:before {
+  content: "\FD1A"; }
 
 .mdi-trash-can:before {
   content: "\FA78"; }
@@ -9672,6 +10266,9 @@ File: Icons Css File
 
 .mdi-trophy-award:before {
   content: "\F539"; }
+
+.mdi-trophy-broken:before {
+  content: "\FD80"; }
 
 .mdi-trophy-outline:before {
   content: "\F53A"; }
@@ -10246,6 +10843,9 @@ File: Icons Css File
 .mdi-weight:before {
   content: "\F5A1"; }
 
+.mdi-weight-gram:before {
+  content: "\FD1B"; }
+
 .mdi-weight-kilogram:before {
   content: "\F5A2"; }
 
@@ -10342,6 +10942,9 @@ File: Icons Css File
 .mdi-wikipedia:before {
   content: "\F5AC"; }
 
+.mdi-wind-turbine:before {
+  content: "\FD81"; }
+
 .mdi-window-close:before {
   content: "\F5AD"; }
 
@@ -10368,6 +10971,9 @@ File: Icons Css File
 
 .mdi-wiper:before {
   content: "\FAE8"; }
+
+.mdi-wiper-wash:before {
+  content: "\FD82"; }
 
 .mdi-wordpress:before {
   content: "\F5B4"; }
@@ -10471,6 +11077,9 @@ File: Icons Css File
 .mdi-youtube-gaming:before {
   content: "\F847"; }
 
+.mdi-youtube-subscription:before {
+  content: "\FD1C"; }
+
 .mdi-youtube-tv:before {
   content: "\F448"; }
 
@@ -10479,6 +11088,9 @@ File: Icons Css File
 
 .mdi-zend:before {
   content: "\FAEA"; }
+
+.mdi-zigbee:before {
+  content: "\FD1D"; }
 
 .mdi-zip-box:before {
   content: "\F5C4"; }
@@ -10550,42 +11162,155 @@ File: Icons Css File
 .mdi-light.mdi-inactive:before {
   color: rgba(255, 255, 255, 0.3); }
 
-
+.mdi-rotate-45 {
+  /*
+  // Not included in production
+  &.mdi-flip-h:before {
+      -webkit-transform: scaleX(-1) rotate(45deg);
+      transform: scaleX(-1) rotate(45deg);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+  }
+  &.mdi-flip-v:before {
+      -webkit-transform: scaleY(-1) rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: scaleY(-1) rotate(45deg);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+  }
+  */ }
 
 .mdi-rotate-45:before {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg); }
 
-
+.mdi-rotate-90 {
+  /*
+  // Not included in production
+  &.mdi-flip-h:before {
+      -webkit-transform: scaleX(-1) rotate(90deg);
+      transform: scaleX(-1) rotate(90deg);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+  }
+  &.mdi-flip-v:before {
+      -webkit-transform: scaleY(-1) rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: scaleY(-1) rotate(90deg);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+  }
+  */ }
 
 .mdi-rotate-90:before {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg); }
 
-
+.mdi-rotate-135 {
+  /*
+  // Not included in production
+  &.mdi-flip-h:before {
+      -webkit-transform: scaleX(-1) rotate(135deg);
+      transform: scaleX(-1) rotate(135deg);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+  }
+  &.mdi-flip-v:before {
+      -webkit-transform: scaleY(-1) rotate(135deg);
+      -ms-transform: rotate(135deg);
+      transform: scaleY(-1) rotate(135deg);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+  }
+  */ }
 
 .mdi-rotate-135:before {
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg); }
 
-
+.mdi-rotate-180 {
+  /*
+  // Not included in production
+  &.mdi-flip-h:before {
+      -webkit-transform: scaleX(-1) rotate(180deg);
+      transform: scaleX(-1) rotate(180deg);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+  }
+  &.mdi-flip-v:before {
+      -webkit-transform: scaleY(-1) rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: scaleY(-1) rotate(180deg);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+  }
+  */ }
 
 .mdi-rotate-180:before {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg); }
 
+.mdi-rotate-225 {
+  /*
+  // Not included in production
+  &.mdi-flip-h:before {
+      -webkit-transform: scaleX(-1) rotate(225deg);
+      transform: scaleX(-1) rotate(225deg);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+  }
+  &.mdi-flip-v:before {
+      -webkit-transform: scaleY(-1) rotate(225deg);
+      -ms-transform: rotate(225deg);
+      transform: scaleY(-1) rotate(225deg);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+  }
+  */ }
 
 .mdi-rotate-225:before {
   -webkit-transform: rotate(225deg);
   transform: rotate(225deg); }
 
-
+.mdi-rotate-270 {
+  /*
+  // Not included in production
+  &.mdi-flip-h:before {
+      -webkit-transform: scaleX(-1) rotate(270deg);
+      transform: scaleX(-1) rotate(270deg);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+  }
+  &.mdi-flip-v:before {
+      -webkit-transform: scaleY(-1) rotate(270deg);
+      -ms-transform: rotate(270deg);
+      transform: scaleY(-1) rotate(270deg);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+  }
+  */ }
 
 .mdi-rotate-270:before {
   -webkit-transform: rotate(270deg);
   transform: rotate(270deg); }
 
-
+.mdi-rotate-315 {
+  /*
+  // Not included in production
+  &.mdi-flip-h:before {
+      -webkit-transform: scaleX(-1) rotate(315deg);
+      transform: scaleX(-1) rotate(315deg);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+  }
+  &.mdi-flip-v:before {
+      -webkit-transform: scaleY(-1) rotate(315deg);
+      -ms-transform: rotate(315deg);
+      transform: scaleY(-1) rotate(315deg);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+  }
+  */ }
 
 .mdi-rotate-315:before {
   -webkit-transform: rotate(315deg);
