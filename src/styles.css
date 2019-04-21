@@ -155,7 +155,9 @@ display:block;
     
     }
     
-
+.account-pages{
+  height: 100vh;
+}
      
     .w70{
     width: 70px;

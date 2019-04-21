@@ -8113,7 +8113,7 @@ html {
   min-height: 100%; }
 
 body {
-  padding-bottom: 60px;
+
   overflow-x: hidden; }
 
 .logo {
@@ -8364,7 +8364,7 @@ body.boxed-layout {
     .scrollable-layout .content-page {
       margin-left: 0;
       width: 100%;
-      padding-bottom: 60px; } }
+      } }
 
 body[data-layout="detached"] {
   padding-bottom: 0; }
@@ -8384,7 +8384,7 @@ body[data-layout="detached"] {
     position: relative;
     margin-right: -15px;
     width: 100%;
-    padding-bottom: 60px; }
+   }
   body[data-layout="detached"].enlarged .wrapper .left-side-menu {
     max-width: 70px;
     min-width: 70px;
