@@ -19,7 +19,7 @@ const routes: Routes = [
     { path: 'prices', component: PricesComponent  },
     { path: 'white', component: WhitePaperComponent },
     { path: 'smart', component: SmartContractComponent },
-    { path: '**', pathMatch: 'full', redirectTo: 'routePath' }
+    { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
 export const appRouting = RouterModule.forRoot( routes , { useHash: true } );

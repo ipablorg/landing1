@@ -51,16 +51,38 @@ background: linear-gradient(to left top, #d3c6e3, #d1c3e8, #cec1ed, #cabef2, #c5
 
 
 
-.fondogris{
-  background: #313A45;
+
+.bg{
+  background-color: rgba(31, 31, 31, 0.98);
 }
+
+
+.LitmoiText{
+  z-index: 1;
+}
+
+
 
 .oculto{
     display:none;
+
+  
   }
   
+  .logo{
+
+    width: 20%;
   
+  }
+
   @media (max-width: 500px) {
+
+
+.logo{
+
+  width: 65%;
+
+}
 
 
 
@@ -108,12 +130,11 @@ display:block;
   .titulo{
     font-size: 55px;
     letter-spacing: 5px;
-    color: #e62357;
-  
+
     }
 
     .copy{
-      background: #e62357;
+      background: #F13257;
      
     }
 
@@ -134,19 +155,8 @@ display:block;
     
     }
     
-    .subtitulo{
-    font-size: 18px;
-    letter-spacing: 1px;
- 
-    }
-    
-   
-    
-    
-    .white{
-    color:white;
-    }
-    
+
+     
     .w70{
     width: 70px;
     }
@@ -207,10 +217,9 @@ display:block;
   
 
   .color {
-    background:white;
-    -webkit-box-shadow: 0px 0px 12px 0px rgba(130,130,130,0.36);
-    -moz-box-shadow: 0px 0px 12px 0px rgba(130,130,130,0.36);
-    box-shadow: 0px 0px 12px 0px rgba(130,130,130,0.36);
+    background:rgb(237, 237, 237);
+ 
+  
      }
   
   .featured-area {
@@ -231,9 +240,9 @@ display:block;
     height: 100%;
     position: fixed;
    
-    background:#E8E8E8;
+    background:white;
   
-    opacity: 0.9;
+    opacity: 1;
     z-index: -1;
   }
   
