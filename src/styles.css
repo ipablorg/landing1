@@ -53,36 +53,14 @@ background: linear-gradient(to left top, #d3c6e3, #d1c3e8, #cec1ed, #cabef2, #c5
 
 
 .bg{
-  background-color: rgba(31, 31, 31, 0.98);
-}
-
-
-.LitmoiText{
-  z-index: 1;
+  background-color: #d8d8d8;
 }
 
 
 
-.oculto{
-    display:none;
 
   
-  }
-  
-  .logo{
 
-    width: 20%;
-  
-  }
-
-  @media (max-width: 500px) {
-
-
-.logo{
-
-  width: 65%;
-
-}
 
 
 
@@ -100,7 +78,7 @@ display:block;
     margin-top: -50px;
   }
     
-}
+
   
   
   
@@ -126,15 +104,67 @@ display:block;
   .w-icono{
     width: 50px;
   }
+
+
+  .copyTamaño{
+    height: 300px;
+  }
   
   .titulo{
     font-size: 55px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+    color: black;
 
     }
 
+    .subtitulo{
+
+      font-size: 35px;
+      letter-spacing: 1px;
+      color: black;
+  
+
+    }
+
+    .logo{
+
+      width: 5%;
+    
+    }
+  
+    @media (max-width: 500px) {
+
+      .copyTamaño{
+        height: 380px;
+      }
+
+      .titulo{
+        font-size: 55px;
+        letter-spacing: 2px;
+        color: black;
+    
+        }
+    
+        .subtitulo{
+    
+          font-size: 25px;
+          letter-spacing: 1px;
+          color: black;
+      
+    
+        }
+  
+  
+  .logo{
+  
+    width: 45%;
+  
+  }
+}
+
+
     .copy{
-      background: #F13257;
+      background: #e53e44;
      
     }
 
@@ -252,7 +282,7 @@ display:block;
   
   body {
     color: #777777;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.5em;
@@ -319,39 +349,12 @@ display:block;
   .h4, .h5, .h6 {
     margin-bottom: 0;
     margin-top: 0;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+
   }
   
-  h1, .h1 {
-    font-size: 36px;
-  }
-  
-  h2, .h2 {
-    font-size: 30px;
-  }
-  
-  h3, .h3 {
-    font-size: 24px;
-  }
-  
-  h4, .h4 {
-    font-size: 18px;
-  }
-  
-  h5, .h5 {
-    font-size: 16px;
-  }
-  
-  h6, .h6 {
-    font-size: 14px;
-    color: #222222;
-  }
-  
-  td, th {
-    border-radius: 0px;
-  }
+ 
   
   /**
    * For modern browsers
@@ -422,9 +425,21 @@ display:block;
   .fw500 {
     font-weight: 500;
   }
+
+  .fw600 {
+    font-weight: 600;
+  }
   
-  .f700 {
+  .fw700 {
     font-weight: 700;
+  }
+
+  .fw800 {
+    font-weight: 800;
+  }
+
+  .fw900 {
+    font-weight: 900;
   }
   
   .fsi {
