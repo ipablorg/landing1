@@ -13,6 +13,10 @@ import { BannerComponent } from './banner/banner.component';
 import { PortadaComponent } from './portada/portada.component';
 import { DescripcionesComponent } from './descripciones/descripciones.component';
 import { CopyComponent } from './copy/copy.component';
+import { SubCopy1Component } from './sub-copy1/sub-copy1.component';
+import { SubCopy2Component } from './sub-copy2/sub-copy2.component';
+import { SubCopy3Component } from './sub-copy3/sub-copy3.component';
+import { SubCopy4Component } from './sub-copy4/sub-copy4.component';
 
 
 @NgModule({
@@ -26,15 +30,19 @@ import { CopyComponent } from './copy/copy.component';
     PortadaComponent,
     NavbarComponent,
     DescripcionesComponent,
-    CopyComponent, ],
+    CopyComponent,
+    SubCopy1Component,
+    SubCopy2Component,
+    SubCopy3Component,
+    SubCopy4Component, ],
 
     imports: [
     CommonModule,
     appRouting,
-    copyRouting
-  ],
+    copyRouting, ],
 
-  exports: [
+    exports: [
+
     PriceTestComponent,
     TablaComponent,
     BannerComponent,
@@ -42,7 +50,10 @@ import { CopyComponent } from './copy/copy.component';
     NavbarComponent,
     DescripcionesComponent,
     CopyComponent,
-
+    SubCopy1Component,
+    SubCopy2Component,
+    SubCopy3Component,
+    SubCopy4Component,
   ]
 
 })

@@ -53,9 +53,8 @@ background: linear-gradient(to left top, #d3c6e3, #d1c3e8, #cec1ed, #cabef2, #c5
 
 
 .bg{
-  background-color: #d8d8d8;
+  background-color: #f1f2f2;
 }
-
 
 
 
@@ -113,7 +112,7 @@ display:block;
   .titulo{
     font-size: 55px;
     letter-spacing: 2px;
-    color: black;
+ 
 
     }
 
@@ -121,14 +120,14 @@ display:block;
 
       font-size: 35px;
       letter-spacing: 1px;
-      color: black;
+
   
 
     }
 
     .logo{
 
-      width: 5%;
+      width: 8%;
     
     }
   
@@ -140,16 +139,16 @@ display:block;
 
       .titulo{
         font-size: 55px;
-        letter-spacing: 2px;
-        color: black;
+      
+
     
         }
     
         .subtitulo{
     
           font-size: 25px;
-          letter-spacing: 1px;
-          color: black;
+        
+     
       
     
         }
@@ -157,9 +156,16 @@ display:block;
   
   .logo{
   
-    width: 45%;
+    width: 35%;
   
   }
+}
+
+@media (max-width: 1025px){
+  .copyTamaño{
+    height: 380px;
+  }
+
 }
 
 
