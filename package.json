@@ -68,6 +68,7 @@
     "select2": "^4.0.6-rc.1",
     "simplemde": "^1.11.2",
     "summernote": "^0.8.10",
+    "sweetalert": "^2.1.2",
     "twitter-bootstrap-wizard": "^1.2.0",
     "typeahead.js": "^0.11.1",
     "zone.js": "~0.8.26"
