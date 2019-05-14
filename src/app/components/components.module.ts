@@ -1,60 +1,55 @@
+import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { PriceTestComponent } from './copy/price-test/price-test.component';
-import { TablaComponent } from './copy/tabla/tabla.component';
-import { copyRouting } from './copy/copy.routes';
-
-
-import { NavbarComponent } from './navbar/navbar.component';
+import { Div1Component } from './div1/div1.component';
+import { Div2Component } from './div2/div2.component';
+import { Div3Component } from './div3/div3.component';
+import { Div4Component } from './div4/div4.component';
+import { Div2Module } from './div2/div2.module';
 import { appRouting } from '../app.routes';
+import { Div5Component } from './div5/div5.component';
+import { Div6Component } from './div6/div6.component';
+import { Div7Component } from './div7/div7.component';
+import { Div8Component } from './div8/div8.component';
+import { FaqComponent } from './faq/faq.component';
 
-import { BannerComponent } from './banner/banner.component';
-import { PortadaComponent } from './portada/portada.component';
-import { DescripcionesComponent } from './descripciones/descripciones.component';
-import { CopyComponent } from './copy/copy.component';
-import { SubCopy1Component } from './sub-copy1/sub-copy1.component';
-import { SubCopy2Component } from './sub-copy2/sub-copy2.component';
-import { SubCopy3Component } from './sub-copy3/sub-copy3.component';
-import { SubCopy4Component } from './sub-copy4/sub-copy4.component';
 
 
 @NgModule({
-
-
   declarations: [
+    Div1Component,
+    Div2Component,
+    Div3Component,
+    Div4Component,
+    Div5Component,
+    Div6Component,
+    Div7Component,
+    Div8Component,
+    FaqComponent
 
-    PriceTestComponent,
-    TablaComponent,
-    BannerComponent,
-    PortadaComponent,
-    NavbarComponent,
-    DescripcionesComponent,
-    CopyComponent,
-    SubCopy1Component,
-    SubCopy2Component,
-    SubCopy3Component,
-    SubCopy4Component, ],
 
-    imports: [
+  ],
+  imports: [
+    BrowserModule,
     CommonModule,
-    appRouting,
-    copyRouting, ],
+    Div2Module,
+    appRouting
 
-    exports: [
+  ],
 
-    PriceTestComponent,
-    TablaComponent,
-    BannerComponent,
-    PortadaComponent,
-    NavbarComponent,
-    DescripcionesComponent,
-    CopyComponent,
-    SubCopy1Component,
-    SubCopy2Component,
-    SubCopy3Component,
-    SubCopy4Component,
-  ]
+   exports: [
 
+    Div1Component,
+    Div2Component,
+    Div3Component,
+    Div4Component,
+    Div5Component,
+    Div6Component,
+    Div7Component,
+    Div8Component,
+    FaqComponent
+
+
+   ],
 })
 export class ComponentsModule { }

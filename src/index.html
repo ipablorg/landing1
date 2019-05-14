@@ -6,40 +6,33 @@
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="logo.ico">
- 
- 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  
-  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800i,900,900i" rel="stylesheet"> 
 
-
-    <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/img/logo.ico">
-
-      <!-- App css -->
-      <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-      <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
-
- <!-- Landing css -->
-      <link rel="stylesheet" href="./assets/landing/css/main.css">
+  <!-- App favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <!-- third party css -->
+  <link href="assets/css/vendor/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+  <!-- third party css end -->
+  <!-- App css -->
+  <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/app-dark.css" rel="stylesheet" type="text/css" />
 
 
 </head>
-<body>
+
+<body class="p-0">
+<app-root></app-root>
 
 
 
-  <app-root></app-root>
-
-
-
-<!-- bundle -->
-<script src="assets/js/app.min.js"></script>
-<script src="assets/js/vendor/dragula.min.js"></script>
-<script src="assets/js/ui/component.dragula.js"></script>
-<script src="assets/js/pages/demo.form-wizard.js"></script>
-
-
+<script src="assets/js/app.js"></script>
+<!-- third party js -->
+<script src="assets/js/vendor/Chart.bundle.min.js"></script>
+<script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
+<!-- third party js ends -->
+<!-- demo app -->
+<script src="assets/js/pages/demo.dashboard.js"></script>
+<!-- end demo js-->
+<script src="assets/js/pages/demo.chartjs.js"></script>
 </body>
 </html>
