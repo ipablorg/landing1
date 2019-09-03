@@ -5,7 +5,7 @@
   }
 
   .bordecito2{
-    border-top-right-radius: 90px;
+    border: .5px solid rgba(29, 1, 84, 0.365);
     }
 
 .form-rounded {
@@ -16,17 +16,34 @@
   background: #e53e44;
 }
 
+.bg-morado{
+  background: #1c0054;
+}
+
 .div1{
   height: 420px;
+}
+
+.fzlg{
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+
 }
 
 
 @media (max-width: 500px) {
 
+  .fzsm{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
 
   .div1{
     height: 440px;
   }
+
+ 
   
 
   }
