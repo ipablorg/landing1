@@ -1,3 +1,36 @@
+
+header.masthead .device-container {
+  max-width: 325px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header.masthead .device-container .screen img {
+  border-radius: 3px;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 775px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.masthead .header-content {
+    margin-bottom: 0;
+    text-align: left;
+  }
+  header.masthead .header-content h1 {
+    font-size: 50px;
+  }
+  header.masthead .device-container {
+    max-width: 325px;
+  }
+}
+
+
+
+
 .fade-in-bck {
 	-webkit-animation: fade-in-bck 2.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in-bck 2.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
