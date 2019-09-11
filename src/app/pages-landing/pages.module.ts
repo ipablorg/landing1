@@ -16,6 +16,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { pagesRouting } from './pages.routes';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { ServiciosComponent } from './servicios/servicios.component';
+import { PreciosComponent } from './precios/precios.component';
+import { NoticiasComponent } from './noticias/noticias.component';
+import { EventosComponent } from './eventos/eventos.component';
 
 
 
@@ -24,7 +28,11 @@ import { RegisterComponent } from './register/register.component';
                   ContactoComponent ,
                   HomeComponent,
                   LoginComponent,
-                  RegisterComponent, ],
+                  RegisterComponent,
+                  ServiciosComponent,
+                  PreciosComponent,
+                  NoticiasComponent,
+                  EventosComponent, ],
 
     imports: [
     ComponentsModule,

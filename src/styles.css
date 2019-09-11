@@ -14,6 +14,56 @@ section.cta {
   background-size: cover;
 }
 
+section.distribucion {
+  
+  position: relative;
+  padding: 50px 0 20px 0;
+  /*background-image: url("assets/images/img/portada.jpeg"); */
+  background-image: url("assets/images/img/distribucion.jpg");
+  background-position: center;
+  background-size: inherit;
+}
+
+section.distribucion .cta-distribucion {
+  position: relative;
+  z-index: 1;
+}
+
+
+section.masterizacion .overlay {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+section.masterizacion {
+  
+  position: relative;
+  padding: 50px 0 20px 0;
+  /*background-image: url("assets/images/img/portada.jpeg"); */
+  background-image: url("assets/images/img/portada1.jpg");
+  background-position: top;
+  background-size: inherit;
+}
+
+section.masterizacion .cta-masterizacion {
+  position: relative;
+  z-index: 1;
+}
+
+
+section.masterizacion .overlay {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
 section.cta .cta-content {
   position: relative;
   z-index: 1;
