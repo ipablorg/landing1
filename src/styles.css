@@ -10,6 +10,7 @@ section.cta {
   padding: 50px 0 20px 0;
   /*background-image: url("assets/images/img/portada.jpeg"); */
   background-image: url("assets/images/img/portada1.jpg");
+  
   background-position: top;
   background-size: cover;
 }
@@ -69,15 +70,23 @@ section.cta .cta-content {
   z-index: 1;
 }
 
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
 
 section.cta .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(5, 0, 53, 0.29);
+  width:100%; 
+	height:100%; 
+  background-image: url("assets/images/img/patron.png");
+  animation: animatedBackground 70s linear infinite;
 }
+
+
 
 
 
@@ -129,6 +138,8 @@ header.masthead .device-container .screen img {
 
 
 /* -----------------------------------------------------------------------------------------  */
+
+
 
 .bg1{
   background: #002447;
