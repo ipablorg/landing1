@@ -40,7 +40,7 @@ section.distribucion {
   padding: 50px 0 20px 0;
   /*background-image: url("assets/images/img/portada.jpeg"); */
   background-image: url("assets/images/img/distribucion.jpg");
-  height: 700px;
+  height: 500px;
   background-position: center;
   background-size: cover;
 }
@@ -165,6 +165,18 @@ header.masthead .device-container .screen img {
 
 /* -----------------------------------------------------------------------------------------  */
 
+
+
+.vertical {
+ 
+ height: 300px;
+ 
+ line-height: 300px;
+ 
+ text-align: center;
+  
+}
+
 .bgbanner{
   background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,36,71,1) 100%);
 }
@@ -179,11 +191,11 @@ header.masthead .device-container .screen img {
 }
 
 .bg2{
-  background: #53D3D1;
+  background:#364156;
 }
 
 .bg3{
-  background: #FBECEB;
+  background: #CDCDCD;
 }
 
 .text-blue{
@@ -255,7 +267,7 @@ pre { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  }
 }
 
 .bordesRedondos{
-  border-radius: 8px;
+  border-radius: 4px;
   word-wrap: break-word;
   -webkit-box-shadow: 0px 2px 32px -3px rgba(0,0,0,1);
   -moz-box-shadow: 0px 2px 32px -3px rgba(0,0,0,1);
@@ -270,10 +282,26 @@ pre { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  }
 } 
 
 
+.tituloslg{
+  font-size: 30px;
+
+} 
+
+.parrafoslg{
+font-size: 20px;
+} 
+
+
+
+
 @media (max-width: 500px) {
 
+  .parrafossm{
+    font-size: 17px;
+  }
+
   .marginINteligente{
-    margin-top: 200px;
+    margin-top: 150px;
   }
 
   .topsmall{
@@ -281,6 +309,10 @@ pre { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  }
     text-align: center;
     font-size: 25px;
 
+  }
+
+  .titulossm{
+    font-size: 24px;
   }
 
   .menosSmall{

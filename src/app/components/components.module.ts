@@ -12,6 +12,7 @@ import { Div6Component } from './div6/div6.component';
 import { Div7Component } from './div7/div7.component';
 import { Div8Component } from './div8/div8.component';
 import { FaqComponent } from './faq/faq.component';
+import { IntroducingComponent } from './introducing/introducing.component';
 
 
 
@@ -25,7 +26,8 @@ import { FaqComponent } from './faq/faq.component';
     Div6Component,
     Div7Component,
     Div8Component,
-    FaqComponent
+    FaqComponent,
+    IntroducingComponent
 
 
   ],
@@ -47,7 +49,8 @@ import { FaqComponent } from './faq/faq.component';
     Div6Component,
     Div7Component,
     Div8Component,
-    FaqComponent
+    FaqComponent,
+    IntroducingComponent
 
 
    ],
