@@ -20,6 +20,8 @@ import { ServiciosComponent } from './servicios/servicios.component';
 import { PreciosComponent } from './precios/precios.component';
 import { NoticiasComponent } from './noticias/noticias.component';
 import { EventosComponent } from './eventos/eventos.component';
+import { AssetsComponent } from './assets/assets.component';
+import { AudioComponent } from './assets/audio/audio.component';
 
 
 
@@ -32,7 +34,9 @@ import { EventosComponent } from './eventos/eventos.component';
                   ServiciosComponent,
                   PreciosComponent,
                   NoticiasComponent,
-                  EventosComponent, ],
+                  EventosComponent,
+                  AssetsComponent,
+                  AudioComponent, ],
 
     imports: [
     ComponentsModule,
