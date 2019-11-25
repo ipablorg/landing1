@@ -1,20 +1,22 @@
 import { RouterModule, Routes } from '@angular/router';
-import { PagesRoutes } from './pages-landing/pages.routes';
-import { PagesComponent } from './pages-landing/pages.component';
 import { PagesTokenComponent } from './pages-token/pages-token.component';
 import { PagesTokenRoutes } from './pages-token/token.routes';
 import { ProtegerRutasGuard } from './guards/proteger-rutas.guard';
-import { LoginComponent } from './pages-landing/login/login.component';
-import { RegisterComponent } from './pages-landing/register/register.component';
+import { RegisterGlobalComponent } from './register-global/register-global.component';
+import { LoginArtistComponent } from './login-artist/login-artist.component';
+import { PagesComponent } from './pages-landing/pages.component';
+import { PagesRoutes } from './pages-landing/pages.routes';
+import { AppComponent } from './app.component';
+
+
 
 
 const routes: Routes = [
-
-    { path: 'litmoi', component: PagesComponent , children: PagesRoutes },
+    { path: '', component: PagesComponent , children: PagesRoutes },
+    { path: 'register', component: RegisterGlobalComponent },
+    { path: 'loginArtist', component: LoginArtistComponent },
     { path: 'fan', component: PagesTokenComponent , canActivate: [ ProtegerRutasGuard ] , children: PagesTokenRoutes },
     { path: '**', redirectTo : 'NoPageFoundComponent' },
-    { path: 'login', component: LoginComponent },
-    { path: 'register', component: RegisterComponent },
 
 ];
 

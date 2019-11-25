@@ -14,14 +14,12 @@ import { ComponentsModule } from '../components/components.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { pagesRouting } from './pages.routes';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { PreciosComponent } from './precios/precios.component';
 import { NoticiasComponent } from './noticias/noticias.component';
 import { EventosComponent } from './eventos/eventos.component';
-import { AssetsComponent } from './assets/assets.component';
-import { AudioComponent } from './assets/audio/audio.component';
+
+
 
 
 
@@ -29,14 +27,12 @@ import { AudioComponent } from './assets/audio/audio.component';
   declarations: [ NavbarComponent,
                   ContactoComponent ,
                   HomeComponent,
-                  LoginComponent,
-                  RegisterComponent,
+
                   ServiciosComponent,
                   PreciosComponent,
                   NoticiasComponent,
                   EventosComponent,
-                  AssetsComponent,
-                  AudioComponent, ],
+                 ],
 
     imports: [
     ComponentsModule,
@@ -46,6 +42,7 @@ import { AudioComponent } from './assets/audio/audio.component';
     ReactiveFormsModule,
     HttpClientModule,
     pagesRouting,
+
 
 
   ],

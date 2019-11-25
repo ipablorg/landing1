@@ -5,11 +5,11 @@ import { UsuariosService } from 'src/app/services/usuarios.service';
 import { Usuario } from 'src/app/models/usuario.model';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
+  selector: 'app-login-artist',
+  templateUrl: './login-artist.component.html',
   styles: []
 })
-export class LoginComponent implements OnInit {
+export class LoginArtistComponent implements OnInit {
 
   email: string;
   recuerdame = false;

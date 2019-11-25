@@ -7,11 +7,12 @@ import { PagesComponent } from './pages-landing/pages.component';
 import { appRouting } from './app.routes';
 import { PagesModule } from './pages-landing/pages.module';
 import { ComponentsModule } from './components/components.module';
-
-
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { PagesTokenModule } from './pages-token/pages-token.module';
+import { LoginArtistComponent } from './login-artist/login-artist.component';
+import { RegisterGlobalComponent } from './register-global/register-global.component';
+
 
 
 
@@ -21,6 +22,8 @@ import { PagesTokenModule } from './pages-token/pages-token.module';
   declarations: [
     AppComponent,
     PagesComponent,
+    LoginArtistComponent,
+    RegisterGlobalComponent,
 
 
   ],
@@ -33,7 +36,8 @@ import { PagesTokenModule } from './pages-token/pages-token.module';
     PagesModule,
     ReactiveFormsModule,
     HttpClientModule,
-    PagesTokenModule
+    PagesTokenModule,
+
   ],
 
   providers: [ ],

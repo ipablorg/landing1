@@ -4,14 +4,12 @@ import { UsuariosService } from 'src/app/services/usuarios.service';
 import { Usuario } from 'src/app/models/usuario.model';
 import { Router } from '@angular/router';
 
-
-
 @Component({
-  selector: 'app-register',
-  templateUrl: './register.component.html',
+  selector: 'app-register-global',
+  templateUrl: './register-global.component.html',
   styles: []
 })
-export class RegisterComponent implements OnInit {
+export class RegisterGlobalComponent implements OnInit {
 
   forma: FormGroup;
 
@@ -59,7 +57,8 @@ export class RegisterComponent implements OnInit {
       this.forma.value.nombre,
       this.forma.value.email,
       this.forma.value.password,
-      this.forma.value.role
+      this.forma.value.role,
+
       );
 
     this.usuarioServ.crearUsuario( usuario ).subscribe(( data: any ) => {
@@ -67,5 +66,4 @@ export class RegisterComponent implements OnInit {
     } );
 
      }
-
 }
