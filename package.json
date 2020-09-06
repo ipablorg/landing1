@@ -51,7 +51,7 @@
     "express": "^4.16.4",
     "fullcalendar": "^3.9.0",
     "gmaps": "^0.4.24",
-    "handlebars": "^4.0.12",
+    "handlebars": "^4.5.3",
     "jquery": "^3.4.0",
     "jquery-datatables-checkboxes": "1.2.11",
     "jquery-mask-plugin": "^1.14.15",
