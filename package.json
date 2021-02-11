@@ -25,7 +25,7 @@
     "@angular/router": "~7.0.0",
     "@google/maps": "^0.5.5",
     "admin-resources": "git+https://github.com/coderthemes/admin-resources#master",
-    "apexcharts": "^3.3.1",
+    "apexcharts": "^3.24.0",
     "blueimp-file-upload": "^9.28.0",
     "bootstrap": "^4.3.1",
     "bootstrap-datepicker": "^1.8.0",
